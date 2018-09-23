@@ -1,0 +1,19 @@
+{
+  "name": "quixenboard",
+  "version": "0.0.1",
+  "description": "A quick xenharmonic keyboard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keenanpepper/quixenboard.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-copy-deps": "^1.3.0"
+  },
+  "dependencies": {
+    "tone": "^0.12.80"
+  }
+}
