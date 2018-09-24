@@ -30,7 +30,7 @@
   var freqForNoteNum = function(note, baseFreq = 261.625565301) {
     var nPeriods = Math.floor(note/scale.length);
     var equiv = note - nPeriods * scale.length;
-    return baseFreq * Math.pow(scale[scale.length-1], nPeriods) * scale[equiv];
+    return baseFreq * Math.pow(scale[scale.length-1], nPeriods) * (equiv == 0 ? 1 : scale[equiv-1]);
   }
 
   var keyMapping = {
